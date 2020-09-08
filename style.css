@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding:0;    
+    font:open-sans;
 }  
 
 
@@ -70,7 +71,20 @@
   }
 
   footer {
-    background-color: #219653;
+    background-color: #3B6A72;
+    width: 100%;
+  }
+
+  footer .contactForm {
+    background-color:white;
+    border-radius: 20px;
+  }
+
+  footer .btn {
+
+  }
+
+  footer .container {
     width: 100%;
   }
 
