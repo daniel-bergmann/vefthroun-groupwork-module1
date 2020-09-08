@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
     <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
     <script src="main.js"></script> 
     <title>Recycle</title>
@@ -14,54 +15,58 @@
           <img class="logo" src="/images/logo2.svg" alt="">
         </section>
     </header>
+    <main>
+    <!-- Start of main-->
+        <!--background image-->
+        <div class="bg">
 
-    <!-- Main-->  
-
-    </Main>
-    <!--End of main-->
-        <!--Tab links-->
-        <div class="tab">
-            <button class="tablinks" onclick="openRecycle(event, 'Why')">Why</button>
-            <button class="tablinks" onclick="openRecycle(event, 'How')">How</button>
-            <button class="tablinks" onclick="openRecycle(event, 'Where')">Where</button>
-        </div>
-
-        <!--Tab content-->
-        <div id="Why" class="tabcontent">
-            <h3>Why</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi impedit sint officiis, doloremque dolore deleniti fugiat. Praesentium quod laudantium, fugiat, aliquam corrupti, cum est officiis at repellat ab asperiores nesciunt.</p>
-        </div>
-
-        <div id="How" class="tabcontent">
-            <h3>How</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi impedit sint officiis, doloremque dolore deleniti fugiat. Praesentium quod laudantium, fugiat, aliquam corrupti, cum est officiis at repellat ab asperiores nesciunt.</p>
-        </div>
-        
-        <div id="Where" class="tabcontent">
-            <h3>Where</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi impedit sint officiis, doloremque dolore deleniti fugiat. Praesentium quod laudantium, fugiat, aliquam corrupti, cum est officiis at repellat ab asperiores nesciunt.</p>
-        </div>
-    <!--start of footer-->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="contactForm">
-                    <div class="contactBackground">
-                        <form>
-                            <input type="text" id="name" placeholder="Name" name="name"><br><br>
-                            <input type="email" id="email" placeholder="E-Mail" name="email"><br><br>
-
-                            <input class="btn" type="submit" value="Send">
-                        </form>
-                    </div>
+        <!--Tab container-->
+            <div class="tab-container">    
+            <!--Tab links-->
+                <div class="tab">
+                    <button class="tablinks" onclick="openRecycle(event, 'Why')" id="defaultOpen">Why</button>
+                    <button class="tablinks" onclick="openRecycle(event, 'How')">How</button>
+                    <button class="tablinks" onclick="openRecycle(event, 'Where')">Where</button>
                 </div>
 
-                <div class="social">
-                    <i class="lni lni-facebook-oval"></i>
-                    <i class="lni lni-twitter-original"></i>
-                    <i class="lni lni-instagram-filled"></i>
+                <!--Tab content-->
+                <div id="Why" class="tabcontent">
+                    <h3>Why</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi impedit sint officiis, doloremque dolore deleniti fugiat. Praesentium quod laudantium, fugiat, aliquam corrupti, cum est officiis at repellat ab asperiores nesciunt.</p><br><br><br><br><br><br><br><br><br><br>
+                </div>
+
+                <div id="How" class="tabcontent">
+                    <h3>How</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi impedit sint officiis, doloremque dolore deleniti fugiat. Praesentium quod laudantium, fugiat, aliquam corrupti, cum est officiis at repellat ab asperiores nesciunt.</p><br><br><br><br><br><br><br><br><br><br>
+                </div>
+                
+                <div id="Where" class="tabcontent">
+                    <h3>Where</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi impedit sint officiis, doloremque dolore deleniti fugiat. Praesentium quod laudantium, fugiat, aliquam corrupti, cum est officiis at repellat ab asperiores nesciunt.</p><br><br><br><br><br><br><br><br><br><br>
                 </div>
             </div>
+        </div>
+        <!--End of main-->
+    </main> 
+
+        <!--start of footer-->
+    <footer>
+        <div class="container">
+            <div class="contactForm">
+                    <form>
+                        <input type="text" id="name" placeholder="Name" name="name"><br><br>
+                        <input type="email" id="email" placeholder="E-Mail" name="email"><br><br>
+                        <textarea name="myTextArea"cols="15" rows="2">Message</textarea><br><br>
+                        <input class="btn" type="submit" value="Send">
+                    </form>
+            </div>
+
+            <div class="social">
+                <i class="lni lni-facebook-oval"></i>
+                <i class="lni lni-twitter-original"></i>
+                <i class="lni lni-instagram-filled"></i>
+            </div>
+            
         </div>
     </footer>
     <!--end of footer-->         

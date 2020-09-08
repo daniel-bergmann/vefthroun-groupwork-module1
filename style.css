@@ -1,9 +1,8 @@
 *{
     margin: 0;
     padding:0;    
-    font:open-sans;
+    font-family:'Open Sans', sans-serif;
 }  
-
 
 .masthead {
     display: flex;
@@ -34,22 +33,42 @@
   }
 
 
+/* background image for main */
+  .bg{
+    background-image: url("/images/main-background.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+
+  .tab-container {
+    margin: 0 auto;
+    height:50%;  
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
  /* styling of tab */ 
   .tab {
+    display: flex;
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #9bebac;
+    padding: 0 25% 0;
+    margin-left: 10%;
+    margin-right:10%;
 }
 
 /* styling of tab buttons */
   .tab button {
     background-color: inherit;
-    float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 14px 100px;
     transition: 0.3s;
+    font-size: 24px;
   }
 
 /* tab button hover */
@@ -61,35 +80,65 @@
     background-color: #ccc;
   }
 
+/* header 3 styling */
+    h3 {
+      text-align: center;
+      font-size: 32px;
+      padding: 10px;
+      color:black;
+    } 
+
 /* styling of tab content */
   .tabcontent {
+    float: left;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    background-color: white;
+    margin-left: 10%;
+    margin-right:10%;
   }
 
   footer {
     background-color: #3B6A72;
-    width: 100%;
-  }
-
-  footer .contactForm {
-    background-color:white;
-    border-radius: 20px;
-  }
-
-  footer .btn {
-
   }
 
   footer .container {
-    width: 100%;
+    column-count: 2;
+    column-width: 50%;
+    position: relative;
+  }
+
+  footer .contactForm {
+    border-radius: 20px;
+    position: absolute;
+    padding:25px;
+    left: 0%;
+    text-align: left;
+    background-color: #27AE60;
+    margin: 100px;
+  }
+
+  footer .btn {
+    background-color: #9CC176;
+    font-size: 16px;
+    border-radius:15px;
+    padding:5px;
+    text-align: center;
+    margin: 0 50px 0;
+  }
+
+  footer i {
+    margin:25px;
   }
 
   footer .social {
-    text-align: right;
-    padding-right: 15px;
-    color: white;
+    position: absolute;
+    right: 0%;
+    color: #9CC176;
     font-size: 36px;
+    display: block;
+    margin-right: 20%;
+    margin-top: 10%;
   }
