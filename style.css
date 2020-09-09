@@ -124,8 +124,11 @@
   }
 
   footer .container {
-    column-count: 2;
-    column-width: 50%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 160px;
+    padding-bottom: 102px;
   }
 
   footer .contactForm {
@@ -135,7 +138,7 @@
     left: 0%;
     text-align: left;
     background-color: #27AE60;
-    margin: 100px;
+    
   }
 
   footer .btn {
@@ -156,4 +159,5 @@
     color: #9CC176;
     font-size: 36px;
     display: block;
+    align-self: flex-end;
   }
