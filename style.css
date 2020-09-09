@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;    
     font-family:'Open Sans', sans-serif;
+    color: #333;
 }  
 
 .masthead {
@@ -11,7 +12,7 @@
     flex-direction: column;
     text-align: center;
     width: auto;
-    height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
+    height: 90vh;
     overflow: hidden;
     background-size: cover ;
     background: radial-gradient(ellipse at center, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 50%, rgba(48,8,8,0.65) 100%), url(/images/My\ Post\ \(2\)\ 1.jpg) no-repeat center center scroll;
@@ -31,6 +32,23 @@
       height: 250px;
       width: 250px;
   }
+
+  .hero-btn {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #3B6A72;
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .hero-btn:hover {
+    background: white;
+    color: #333;
+    opacity: 0.8;
+  }
+
 
 
 /* background image for main */
