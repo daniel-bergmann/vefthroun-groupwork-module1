@@ -102,17 +102,17 @@
 
   footer {
     background-color: #3B6A72;
+
   }
 
   footer .container {
     column-count: 2;
     column-width: 50%;
-    position: relative;
   }
 
   footer .contactForm {
     border-radius: 20px;
-    position: absolute;
+    position: relative;
     padding:25px;
     left: 0%;
     text-align: left;
@@ -126,7 +126,6 @@
     border-radius:15px;
     padding:5px;
     text-align: center;
-    margin: 0 50px 0;
   }
 
   footer i {
@@ -134,11 +133,9 @@
   }
 
   footer .social {
-    position: absolute;
+    position: relative;
     right: 0%;
     color: #9CC176;
     font-size: 36px;
     display: block;
-    margin-right: 20%;
-    margin-top: 10%;
   }
