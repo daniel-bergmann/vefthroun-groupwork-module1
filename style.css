@@ -2,7 +2,8 @@
     margin: 0;
     padding:0;    
     font-family:'Open Sans', sans-serif;
-    color: #333;
+    color: white;
+    border-radius: 4px;
 }  
 
 .masthead {
@@ -75,11 +76,12 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #9bebac;
+    background-color: #3b6a72;
+    background-color: #3b6a72;
     padding: 0 25% 0;
-    margin-left: 10%;
-    margin-right:10%;
+    margin-left: 12%;
+    margin-right:12%; 
+    border-radius: 20px;
 }
 
 /* styling of tab buttons */
@@ -95,11 +97,12 @@
 
 /* tab button hover */
   .tab button:hover {
-    background-color: #ddd;
+    background-color: #3b6a72;
   }
 
   .tab button.active {
-    background-color: #ccc;
+    background-color: #264657
+    ;
   }
 
 /* header 3 styling */
@@ -107,7 +110,7 @@
       text-align: center;
       font-size: 32px;
       padding: 10px;
-      color:black;
+      color:white;
     } 
 
 /* styling of tab content */
@@ -115,11 +118,12 @@
     float: left;
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #3B6A72;
     border-top: none;
-    background-color: white;
-    margin-left: 10%;
-    margin-right:10%;
+    background-color: #264657;
+    margin-left: 12%;
+    margin-right:12%;
+    border-radius: 20px;
   }
 
   footer {
@@ -131,7 +135,7 @@
     margin: 0 10%;
     display: flex;
     justify-content: space-between;
-    padding-top: 160px;
+    padding-top: 120px;
     padding-bottom: 102px;
   }
 
@@ -142,26 +146,21 @@
     padding:25px;
     left: 0%;
     text-align: left;
-    background-color: #27AE60;
+    background-color: #264657
     
   }
 
   footer .btn {
-    background-color: #9CC176;
-    font-size: 16px;
-    border-radius:15px;
-    padding:5px;
+    background-color: #3b6a72;
+    font-size: 15px;
+    border-radius:10px;
+    padding:7px;
     text-align: center;
     cursor: pointer;
   }
 
   footer i {
-<<<<<<< HEAD
     margin:3px;
-=======
-    margin:25px;
-    cursor: pointer;
->>>>>>> 9dd90b2df01bf599b573f354c0b8343127299928
   }
 
   footer .social {
