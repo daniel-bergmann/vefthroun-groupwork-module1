@@ -65,11 +65,15 @@
     height:50%;  
     padding-top: 10%;
     padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
   }
 
  /* styling of tab */ 
   .tab {
     display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #9bebac;
@@ -148,10 +152,16 @@
     border-radius:15px;
     padding:5px;
     text-align: center;
+    cursor: pointer;
   }
 
   footer i {
+<<<<<<< HEAD
     margin:3px;
+=======
+    margin:25px;
+    cursor: pointer;
+>>>>>>> 9dd90b2df01bf599b573f354c0b8343127299928
   }
 
   footer .social {
