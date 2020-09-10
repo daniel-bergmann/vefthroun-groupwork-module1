@@ -97,6 +97,8 @@
     padding: 14px 100px;
     transition: 0.3s;
     font-size: 24px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 1px;
   }
 
 /* tab button hover */
