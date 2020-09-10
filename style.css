@@ -133,6 +133,7 @@
 
   footer .contactForm {
     border-radius: 20px;
+    width: 20%;
     position: relative;
     padding:25px;
     left: 0%;
@@ -150,7 +151,7 @@
   }
 
   footer i {
-    margin:25px;
+    margin:3px;
   }
 
   footer .social {
