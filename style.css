@@ -99,6 +99,7 @@
     font-size: 24px;
     border-bottom-right-radius: 1px;
     border-bottom-left-radius: 1px;
+    letter-spacing: 1px;
   }
 
 /* tab button hover */
@@ -117,6 +118,7 @@
       font-size: 32px;
       padding: 10px;
       color:white;
+      letter-spacing: 4px;
     } 
 
 /* styling of tab content */
@@ -132,6 +134,8 @@
     border-radius: 20px;
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
+    letter-spacing: 1px;
+    text-align: center;
   }
 
   footer {
